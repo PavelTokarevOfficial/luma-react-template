@@ -5,8 +5,8 @@ function HomePage() {
         Добро пожаловать
       </h1>
       <p className="text-base text-slate-600">
-        Это стартовая страница. Отсюда можно перейти к разделам и
-        накинуть свои блоки.
+        Это стартовая страница. Отсюда можно перейти к разделам и накинуть свои
+        блоки.
       </p>
       <div className="grid gap-4 md:grid-cols-3">
         <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">

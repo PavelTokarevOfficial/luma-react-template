@@ -8,7 +8,9 @@ function Header() {
         <nav className="flex gap-6 text-sm font-medium">
           <NavLink
             className={({ isActive }) =>
-              isActive ? 'text-slate-900' : 'text-slate-500 hover:text-slate-800'
+              isActive
+                ? 'text-slate-900'
+                : 'text-slate-500 hover:text-slate-800'
             }
             to="/"
           >
@@ -16,7 +18,9 @@ function Header() {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              isActive ? 'text-slate-900' : 'text-slate-500 hover:text-slate-800'
+              isActive
+                ? 'text-slate-900'
+                : 'text-slate-500 hover:text-slate-800'
             }
             to="/about"
           >
@@ -24,7 +28,9 @@ function Header() {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              isActive ? 'text-slate-900' : 'text-slate-500 hover:text-slate-800'
+              isActive
+                ? 'text-slate-900'
+                : 'text-slate-500 hover:text-slate-800'
             }
             to="/contact"
           >
