@@ -9,7 +9,7 @@ function HomePage() {
         блоки.
       </p>
       <div className="gap-4 grid md:grid-cols-3">
-        <div className="bg-slate-50 p-4 border border-slate-200 rounded-2xl">
+        <div className="bg-slate-50 border p-4  border-slate-200 rounded-2xl">
           <p className="font-medium text-slate-900 text-sm">Быстрый старт</p>
           <p className="mt-2 text-slate-600 text-sm">
             Готовая структура для первых экранов.
