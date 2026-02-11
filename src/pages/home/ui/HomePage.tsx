@@ -4,33 +4,33 @@ function HomePage() {
       <h1 className="font-semibold text-3xl tracking-tight">
         Добро пожаловать
       </h1>
-      <p className="text-base text-slate-600 ">
+      <p className="text-slate-600 text-base">
         Это стартовая страница. Отсюда можно перейти к разделам и накинуть свои
         блоки.
       </p>
       <div className="gap-4 grid md:grid-cols-3">
-        <div className=" rounded-2xl  bg-slate-50 border p-4   border-slate-200">
+        <div className="bg-slate-50 p-4 border border-slate-200 rounded-2xl">
           <p className="font-medium text-slate-900 text-sm">Быстрый старт</p>
           <p className="mt-2 text-slate-600 text-sm">
             Готовая структура для первых экранов.
           </p>
         </div>
         <div className="bg-slate-50 p-4 border border-slate-200 rounded-2xl">
-          <p className=" text-slate-900 text-sm font-medium">Навигация</p>
-          <p className=" text-slate-600 mt-2  text-sm">
+          <p className="font-medium text-slate-900 text-sm">Навигация</p>
+          <p className="mt-2 text-slate-600 text-sm">
             Несколько страниц и роутинг уже подключены.
           </p>
         </div>
         <div className="bg-slate-50 p-4 border border-slate-200 rounded-2xl">
-          <p className=" text-slate-900 text-sm font-medium">Дизайн</p>
+          <p className="font-medium text-slate-900 text-sm">Дизайн</p>
           <p className="mt-2 text-slate-600 text-sm">
             Нейтральные стили, чтобы можно было легко переодеть.
           </p>
         </div>
       </div>
 
-      <div className="flex  gap-3 bg-slate-900  items-center p-4 border border-slate-700 rounded-xl text-white">
-        <div className="flex justify-center  bg-indigo-500 rounded-full w-10 h-10  items-center font-semibold text-sm">
+      <div className="flex items-center gap-3 bg-slate-900 p-4 border border-slate-700 rounded-xl text-white">
+        <div className="flex justify-center items-center bg-indigo-500 rounded-full w-10 h-10 font-semibold text-sm">
           T
         </div>
         <div className="flex-1">
