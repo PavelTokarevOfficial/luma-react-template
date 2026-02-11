@@ -9,15 +9,15 @@ function HomePage() {
         блоки.
       </p>
       <div className="gap-4 grid md:grid-cols-3">
-        <div className="bg-slate-50 border p-4  border-slate-200 rounded-2xl">
+        <div className=" rounded-2xl border-slate-200 bg-slate-50 border p-4   ">
           <p className="font-medium text-slate-900 text-sm">Быстрый старт</p>
           <p className="mt-2 text-slate-600 text-sm">
             Готовая структура для первых экранов.
           </p>
         </div>
         <div className="bg-slate-50 p-4 border border-slate-200 rounded-2xl">
-          <p className="font-medium text-slate-900 text-sm">Навигация</p>
-          <p className="mt-2 text-slate-600 text-sm">
+          <p className=" text-slate-900 text-sm font-medium">Навигация</p>
+          <p className=" text-slate-600 mt-2  text-sm">
             Несколько страниц и роутинг уже подключены.
           </p>
         </div>
