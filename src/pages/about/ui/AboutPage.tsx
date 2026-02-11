@@ -3,8 +3,7 @@ function AboutPage() {
     <section className="space-y-4">
       <h1 className="text-3xl font-semibold tracking-tight">О проекте</h1>
       <p className="text-base text-slate-600">
-        Небольшая заготовка, где можно описать продукт, команду или
-        историю.
+        Небольшая заготовка, где можно описать продукт, команду или историю.
       </p>
       <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
         <p className="text-sm text-slate-500">Ключевые факты</p>
